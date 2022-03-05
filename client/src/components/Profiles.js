@@ -30,7 +30,7 @@ const Profiles = () => {
 
   return (
     <>
-    <div className="absolute left-20">
+    <div className="">
       <h1 style={{ color: "#fff" }}>Profiles</h1>
       <div className="profiles-grid">
         {profiles.map((profile, idx) => (

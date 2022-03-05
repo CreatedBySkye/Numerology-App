@@ -33,7 +33,7 @@ const ProfileForm = () => {
 
   return (
     <>
-    <Form className="lg:w-2/5 border-8 radius-25 border-purple-400 ml-4 pl-4">
+    <Form className="mt-4 bg-white lg:w-2/5 border-8 radius-25 border-purple-400 ml-4 pl-4">
       <h1 className="ml-40 mt-4">Create Profile</h1>
       <FormGroup className="w-1/2 ml-40">
         <Label for="profileName">Name</Label>

@@ -5,8 +5,8 @@ const AboutNumerology = () => {
 
 return (
     <div className="pt-10 bg-blue-200">
-<img src="https://i.ibb.co/kJ4Drst/pexels-pixabay-301673.jpg" width="60%" height="100%"alt="pexels-pixabay-301673" border="0" className="object-cover absolute right-0 dark:bg-coolGray-500 z-0"/>   
-      <img src="https://i.ibb.co/4tfhN62/shutterstock-1787658104.jpg" height="100%" width="50%" alt="shutterstock-1787658104" border="0" className="h-full dark:bg-coolGray-500 pr-40 z-20"/>
+<img src="https://i.ibb.co/kJ4Drst/pexels-pixabay-301673.jpg" width="60%" height="100%"alt="pexels-pixabay-301673" border="0" className=" absolute top-28 right-0 dark:bg-coolGray-500 z-0 h-screen"/>   
+      <img src="https://i.ibb.co/4tfhN62/shutterstock-1787658104.jpg" height="100%" width="50%" alt="shutterstock-1787658104" border="0" className="absolute top-28 h-screen dark:bg-coolGray-500 pr-40 z-0"/>
           <div className="absolute top-40 mr-40 right-96 border-8 border-purple-700 w-96 z-30">
 		<div className="float-right z-30">
 	<div className="h-62 pb-2 bg-green-200"><h1 className="ml-2 w-90%">What Is Numerology?</h1></div>

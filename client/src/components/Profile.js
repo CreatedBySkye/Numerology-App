@@ -8,7 +8,6 @@ const Profile = ({ profile }) => {
     birthYear,
     gender,
     lifePath,
-    radical,
     zodiacSign,
     email,
     _id: id,
@@ -29,7 +28,6 @@ const Profile = ({ profile }) => {
       <h3>Date of Birth: {`${birthMonth}/${birthDay}/${birthYear}`}</h3>
       <h3>Gender: {gender}</h3>
       <h3>Life Path Number: {lifePath}</h3>
-      <h3>Radical Number: {radical}</h3>
       <h3>Zodiac Sign: {zodiacSign}</h3>
     </div>
   );

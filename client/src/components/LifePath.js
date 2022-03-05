@@ -9,8 +9,9 @@ const LifePath = (props) => {
         margin: "2em 4em",
         backgroundColor: "white",
         borderRadius: "10px",
+        zIndex: "60",
       }}
-      className="bg-black text-white opacity-2/3"
+      className="bg-black text-white opacity-2/3 z-50"
     >
       <h1 className="bg-black text-white">{pathNumber}</h1>
       <h2 className=" bg-black text-white">{title}</h2>

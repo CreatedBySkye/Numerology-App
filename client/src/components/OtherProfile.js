@@ -2,6 +2,8 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
+import './OtherProfile.css'
+
 
 const OtherProfile = ({
   profile,
@@ -18,7 +20,6 @@ const OtherProfile = ({
     birthYear,
     gender,
     lifePath,
-    radical,
     zodiacSign,
     email,
     _id: id,
@@ -31,7 +32,6 @@ const OtherProfile = ({
     birthYear,
     gender,
     lifePath,
-    radical,
     zodiacSign,
     email,
   });
@@ -55,27 +55,31 @@ const OtherProfile = ({
 
   return (
     <>
+        
+        
+    <div className="relative top-96 pt-20 pl-4 inline-flex">
+
       <div
         style={{
-          backgroundColor: "white",
-          padding: "1em 0.5em",
+          
+          display: "flex",
+          justifyContent: "space-between",
           margin: "2em 4em",
           borderRadius: "10px",
         }}
-        className="relative"
+        className="z-40 bg-white"
       >
+      
+        <div id="profile" className="space-x-12 border-4 drop-shadow-lg 	shadow-purple-700 rounded-lg border-purple-800 z-0 p-10  shadow-2xl shadow-blue-500/90 ">
         <h2>{name}</h2>
         <h4>Date of Birth: {`${birthMonth}/${birthDay}/${birthYear}`}</h4>
         <h4>Gender: {gender}</h4>
         <h4>Life Path Number: {lifePath}</h4>
-        <h4>Radical Number: {radical}</h4>
         <h4>Zodiac Sign: {zodiacSign}</h4>
+       
         <div
-          style={{
-            display: "flex",
-            justifyContent: "space-evenly",
-            marginTop: "1.5rem",
-          }}
+        className="flex"
+       
         >
           <button
             onClick={handleShowEdit}
@@ -84,11 +88,12 @@ const OtherProfile = ({
             Edit
           </button>
           <button
-            className="btn btn-danger btn-block"
+            className="btn btn-danger btn-block ml-2"
             onClick={() => handleProfileDelete(email, id)}
           >
             Delete
           </button>
+          </div>
         </div>
       </div>
       <Modal show={showEdit} onHide={handleCloseEdit}>
@@ -102,6 +107,7 @@ const OtherProfile = ({
           >
             <Form.Label>Name</Form.Label>
             <Form.Control
+              style={{marginLeft: "50px"}}
               type="text"
               placeholder="A friend's name"
               value={updatedProfile.name}
@@ -109,6 +115,7 @@ const OtherProfile = ({
                 setUpdatedProfile({
                   ...updatedProfile,
                   name: e.target.value,
+              
                 })
               }
             />
@@ -194,6 +201,9 @@ const OtherProfile = ({
           </Button>
         </Modal.Footer>
       </Modal>
+    
+      </div>
+      
     </>
   );
 };

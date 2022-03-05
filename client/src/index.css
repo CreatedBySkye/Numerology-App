@@ -2,9 +2,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
+body {
+        background: url("https://i.ibb.co/b7gzMvS/pawel-czerwinski-ny-JY9-UZnkr-E-unsplash.jpg");
+      background-position-x: -150px;
+      background-size: 60%;
+    overflow-x: hidden;
+    }
+
+
+img{
+filter: drop-shadow(1px 4px 2px purple);
+}
+
+h1 {
+    -webkit-text-stroke: .5px blue;
+    font-weight: 900;
+    color: rgb(186, 179, 228);
+    text-shadow: 2px 2px 4px rgb(240, 59, 134);
+}
+
+#no-prof-div {
+    background: url("https://i.ibb.co/q5YrBXM/aaron-burden-KLj-Rgq-N3-EO8-unsplash-1.jpg");
+  
+    opacity: 100%;
+    filter: drop-shadow(1px 4px 2px purple);
+}
+#no-profs {
+    filter: drop-shadow(1px 4px 2px purple);
+
+    -webkit-text-stroke: 1.5px rgb(104, 16, 45); 
+    color:rgb(113, 199, 192);
+    text-shadow: 5px 4px 5px rgb(179, 49, 92);
+   
+}
+
+#h3 {
+  
+    color: black;
+    text-shadow: 2px 2px 2px blue;
+    filter: drop-shadow(2px 2px 2px rgb(255, 154, 196));
+    
+}
+
+
+#pattern {
+    height: 102%;
+}
+#rock-img {
+scale: 80%;
+position: absolute;
+left: -100px;
+top: 30px;
+z-index: 20;
+}
+
+
+#sun-img {
+    filter: drop-shadow(2px 2px 4px blue);
+    z-index: 40;
+}
+
+#add-btn {
+    filter: drop-shadow(2px 3px 4px rgb(95, 16, 62));
+    z-index: 60;
+}

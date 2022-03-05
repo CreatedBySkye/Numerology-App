@@ -7,6 +7,7 @@ module.exports = {
         Rakkas: ["Rakkas", "cursive"],
         Amatic: ["Amatic SC", "cursive"],
         Carattere: ["Carattere", "cursive"],
+        Imperial: ["Imperial Script", "cursive"],
       },
     },
   },
