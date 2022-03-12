@@ -7,8 +7,8 @@ const Signup = () => {
   return (
     <>
     
-	<h1 className="absolute bottom-20 text-4xl bg-white right-20 mr-16 z-30 pt-2 pb-2 pr-16 pl-4 border-8 border-purple-700">Sign up to get your life path number! <button
-      className="btn btn-primary btn-block"
+	<h1 className="z-50 absolute bottom-12 text-4xl bg-white right-10 mr-109 pt-2 pb-2 pl-6 pr-6 border-8 border-purple-800">Sign up to reveal your life path number! <button
+      id="signup-btn" className="btn btn-primary btn-block border-4 border-black"
       onClick={() => loginWithRedirect()}
     >
       Signup

@@ -3,44 +3,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
+#userProfile {
+    position: absolute;
+    top: 270px;
+}
+#signup-btn {
+    background-color:rgb(95, 16, 62);
+    border-radius: 8px;
+    color: white;
+}
+#login-btn {
+    background-color: hotpink;
+}
 body {
-        background: url("https://i.ibb.co/b7gzMvS/pawel-czerwinski-ny-JY9-UZnkr-E-unsplash.jpg");
+    background: url("https://i.ibb.co/b7gzMvS/pawel-czerwinski-ny-JY9-UZnkr-E-unsplash.jpg");
       background-position-x: -150px;
       background-size: 60%;
-    overflow-x: hidden;
+    overflow: hidden;
+
+    
     }
+#hero-img {
+    border:solid 8px indigo;
+    position: absolute;
+    top: 107px;
 
+}
+#navbar {
+    border-bottom: solid 12px green;
+}
 
-img{
-filter: drop-shadow(1px 4px 2px purple);
+#header-title {
+    
+    font-size: 68px;
+    font-family: 'Mea Culpa', cursive;
 }
 
 h1 {
     -webkit-text-stroke: .5px blue;
     font-weight: 900;
-    color: rgb(186, 179, 228);
+    color: rgb(95, 16, 62);
     text-shadow: 2px 2px 4px rgb(240, 59, 134);
 }
 
 #no-prof-div {
-    background: url("https://i.ibb.co/q5YrBXM/aaron-burden-KLj-Rgq-N3-EO8-unsplash-1.jpg");
-  
+    background: url("https://i.ibb.co/Rc9LMH5/david-pisnoy-Gm-N13w9bg8w-unsplash.jpg");
+    background-size: 20%;
     opacity: 100%;
     filter: drop-shadow(1px 4px 2px purple);
+    position: absolute;
+    bottom: -250px;
+    z-index: 40;
+    height: 130px;
+    overflow-y: hidden;
 }
 #no-profs {
     filter: drop-shadow(1px 4px 2px purple);
 
-    -webkit-text-stroke: 1.5px rgb(104, 16, 45); 
-    color:rgb(113, 199, 192);
-    text-shadow: 5px 4px 5px rgb(179, 49, 92);
+    -webkit-text-stroke: 1px rgb(69, 58, 214); 
+    color:rgb(104, 16, 45);
+    text-shadow: 5px 4px 5px rgb(236, 78, 215);
    
 }
 
@@ -52,25 +80,69 @@ h1 {
     
 }
 
+#pattern-img {
+    position: absolute;
+    top: -20px;
+    object-fit: contain;
+}
+#footer-img {
+    position: absolute;
+    bottom: -100px;
+    right: 10px;
+    scale: 50%;
+}
 
 #pattern {
     height: 102%;
 }
 #rock-img {
-scale: 80%;
+
 position: absolute;
-left: -100px;
-top: 30px;
+left: 16px;
+top: 164px;
 z-index: 20;
+scale: 110%;
 }
 
-
+#pattern {
+position: absolute;
+top: 155px;
+left: 480px;
+scale: 107%;
+}
 #sun-img {
     filter: drop-shadow(2px 2px 4px blue);
-    z-index: 40;
+    z-index: -2;
+    top: 92px;
+    position: absolute;
+    left: 1040px;
+    scale: 90%;
 }
 
 #add-btn {
     filter: drop-shadow(2px 3px 4px rgb(95, 16, 62));
     z-index: 60;
+}
+
+
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    z-index: 100;
+    background-color:rgb(95, 16, 62);      /* Footer height */
+  }
+
+#header-img {
+    width: 100%;
+  height: 400px;
+  background: url('http://www.kodhus.com/freecourse-images/header-image.jpg');
+  background-size: cover;
+  opacity: 100%;
+}
+
+#sun-shadow {
+    
 }

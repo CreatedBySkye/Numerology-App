@@ -57,7 +57,7 @@ const OtherProfile = ({
     <>
         
         
-    <div className="relative top-96 pt-20 pl-4 inline-flex">
+    <div className="relative top-96 pt-24 pl-4 inline-flex">
 
       <div
         style={{

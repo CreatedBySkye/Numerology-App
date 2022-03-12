@@ -17,7 +17,7 @@ const Profile = ({ profile }) => {
     className=""
       style={{
         backgroundColor: "white",
-        padding: "1em 0.5em",
+     
         margin: "2em 4em",
         borderRadius: "10px",
       }}

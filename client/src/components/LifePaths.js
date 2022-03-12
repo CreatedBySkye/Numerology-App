@@ -30,15 +30,28 @@ const LifePaths = () => {
     return <div>Failed to fetch life paths</div>;
   }
 
+let button = document.getElementById("lifepath")
+button.style.opacity="0%"
 let h1= document.getElementsByClassName("border-red-800 border-4 text-purple-800 absolute top-40 ml-80 left-96 w-1/4 overflow-y-auto h-2/4")
 h1.className="opacity-0"
+let body = document.querySelector("body")
+body.style.overflow="auto"
+body.style.backgroundImage = "url('https://i.ibb.co/6w3y3gn/freguesia-de-estrela-Rk49-UFo7uw8-unsplash-1.jpg')"
+
+let img = document.getElementById("rock-img")
+img.style.opacity="0%"
+let img2 = document.getElementById("pattern")
+img2.style.opacity="0%"
+let h5 = document.querySelector("H5")
+h5.style.opacity="0%"
   return (
-    <>
-    <img src="https://i.ibb.co/kJ4Drst/pexels-pixabay-301673.jpg" width="60%" height="100%"alt="pexels-pixabay-301673" border="0" className="object-cover absolute right-0 dark:bg-coolGray-500 z-0"/>   
-      <img src="https://i.ibb.co/4tfhN62/shutterstock-1787658104.jpg" height="100%" width="50%" alt="shutterstock-1787658104" border="0" className="h-full dark:bg-coolGray-500 pr-40 z-20"/>
+    <div className=""> 
+    
+     
+
       <div>
-      <h1 style={{ color: "#fff" }}>Life Paths</h1>
-      <div className="absolute top-40 z-50">
+ 
+      <div className="absolute top-40 z-0">
         {lifePaths.map((path, idx) => (
           <LifePath
             key={idx}
@@ -49,7 +62,7 @@ h1.className="opacity-0"
         ))}
       </div>
       </div>
-    </>
+    </div>
   );
 };
 

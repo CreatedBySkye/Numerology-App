@@ -3,6 +3,8 @@ import React from "react";
 const LifePath = (props) => {
   const { pathNumber, title, description } = props;
   return (
+    <>
+
     <div
       style={{
         padding: "1em 2em",
@@ -17,6 +19,7 @@ const LifePath = (props) => {
       <h2 className=" bg-black text-white">{title}</h2>
       <p className="bg-black text-white">{description}</p>
     </div>
+    </>
   );
 };
 

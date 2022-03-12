@@ -4,13 +4,26 @@
 const AboutNumerology = () => {
 
 return (
-    <div className="pt-10 bg-blue-200">
-<img src="https://i.ibb.co/kJ4Drst/pexels-pixabay-301673.jpg" width="60%" height="100%"alt="pexels-pixabay-301673" border="0" className=" absolute top-28 right-0 dark:bg-coolGray-500 z-0 h-screen"/>   
-      <img src="https://i.ibb.co/4tfhN62/shutterstock-1787658104.jpg" height="100%" width="50%" alt="shutterstock-1787658104" border="0" className="absolute top-28 h-screen dark:bg-coolGray-500 pr-40 z-0"/>
-          <div className="absolute top-40 mr-40 right-96 border-8 border-purple-700 w-96 z-30">
-		<div className="float-right z-30">
+    <div className="pt-10 bg-blue-200"><img src="https://i.ibb.co/V35c5w2/rigel-0-Cb-CU6w6-HRk-unsplash.jpg" alt="tim-mossholder-VQYLERx-Fa-QA-unsplash" id="pattern-img" className=""/>
+    <img src="https://i.ibb.co/V35c5w2/rigel-0-Cb-CU6w6-HRk-unsplash.jpg" alt="tim-mossholder-VQYLERx-Fa-QA-unsplash" id="pattern-img" className="absolute right-40"/>
+    <img src="https://i.ibb.co/V35c5w2/rigel-0-Cb-CU6w6-HRk-unsplash.jpg" alt="tim-mossholder-VQYLERx-Fa-QA-unsplash" id="pattern-img" className="absolute right-96 mr-20"/>
+    <img src="https://i.ibb.co/V35c5w2/rigel-0-Cb-CU6w6-HRk-unsplash.jpg" alt="tim-mossholder-VQYLERx-Fa-QA-unsplash" id="pattern-img" className="absolute right-0"/>
+    <div id="divide">
+<img src="https://i.ibb.co/YWdQGT8/jason-leung-UMnc-YEf-O9-U-unsplash.jpg" alt="vinicius-amnx-amano-w-Qk-Pa-IZ6-PHc-unsplash-1" className="absolute top-44 mt-12 border-b-4 border-b-blue-400 border-t-8 border-t-blue-400 first-line:left-72 h-1/2 z-40"/>
+<img src="https://i.ibb.co/YWdQGT8/jason-leung-UMnc-YEf-O9-U-unsplash.jpg" alt="vinicius-amnx-amano-w-Qk-Pa-IZ6-PHc-unsplash-1" className="absolute top-44 mt-12 border-b-4 border-b-blue-400 border-t-8 border-t-blue-400  left-96 ml-40 h-1/2 z-40"/>
+<img src="https://i.ibb.co/YWdQGT8/jason-leung-UMnc-YEf-O9-U-unsplash.jpg" alt="vinicius-amnx-amano-w-Qk-Pa-IZ6-PHc-unsplash-1" className="absolute top-44 mt-12 border-b-4 border-b-blue-400 border-t-8 border-t-blue-400  right-96 mr-96 h-1/2 z-40"/>
+<img src="https://i.ibb.co/YWdQGT8/jason-leung-UMnc-YEf-O9-U-unsplash.jpg" alt="vinicius-amnx-amano-w-Qk-Pa-IZ6-PHc-unsplash-1" className="absolute top-44 mt-12 border-b-4 border-b-blue-400 border-t-8 border-t-blue-400  right-72 mr-60 h-1/2 z-40"/>
+<img src="https://i.ibb.co/YWdQGT8/jason-leung-UMnc-YEf-O9-U-unsplash.jpg" alt="vinicius-amnx-amano-w-Qk-Pa-IZ6-PHc-unsplash-1" className="absolute top-44 mt-12 border-b-4 border-b-blue-400 border-t-8 border-t-blue-400  right-72 pl-40 h-1/2 z-40"/>
+<img src="https://i.ibb.co/YWdQGT8/jason-leung-UMnc-YEf-O9-U-unsplash.jpg" alt="vinicius-amnx-amano-w-Qk-Pa-IZ6-PHc-unsplash-1" className="absolute top-44 mt-12 border-b-4 border-b-blue-400 border-t-8 border-t-blue-400  right-12 pl-60 h-1/2 z-40"/>
+<img src="https://i.ibb.co/YWdQGT8/jason-leung-UMnc-YEf-O9-U-unsplash.jpg" alt="vinicius-amnx-amano-w-Qk-Pa-IZ6-PHc-unsplash-1" className="absolute top-44 mt-12 border-b-4 border-b-blue-400 border-t-8 border-t-blue-400  right-0  pl-2 h-1/2 z-20"/>
+
+</div>
+
+      <img src="https://i.ibb.co/4tfhN62/shutterstock-1787658104.jpg" alt="shutterstock-1787658104" id="hero-img" className="scale-90 rounded-full absolute top-28 z-50"/>
+          <div className="absolute top-64 ml-96 left-96 border-8 border-indigo-700 w-96 z-50">
+		<div className="float-right z-50">
 	<div className="h-62 pb-2 bg-green-200"><h1 className="ml-2 w-90%">What Is Numerology?</h1></div>
-	<div className="h-64 w-90%  pb-16 overflow-scroll pl-4 bg-white">
+	<div className="h-44 w-90%  pb-16 overflow-scroll pl-4 bg-white">
 
         
         <p>Numerology can loosely be described as the sister study to Astrology. Much like astrology, Numerology is a form of divination.</p>
@@ -26,10 +39,10 @@ return (
 	</div>
         </div>
 
-        <div className="absolute top-40 ml-72 mr-10 right-24 border-8 border-purple-700 w-96 z-30">
-		<div className="float-right z-30">
-	<div className="h-62 bg-pink-200 z-30 pb-2"><h1 className="ml-2 w-90% z-30">What Is Life Path Number?</h1></div>
-	<div className="bg-white h-64 w-90%  pl-4 pb-16 overflow-scroll z-30" >
+        <div className="absolute top-64 ml-72 mr-10 right-0 border-8 border-indigo-700 w-96 z-50">
+		<div className="float-right z-50">
+	<div className="h-62 bg-pink-200 z-50 pb-2"><h1 className="ml-2 w-90% z-50">What Is A 'Life Path Number?'</h1></div>
+	<div className="bg-white h-44 w-90%  pl-4 pb-16 overflow-scroll z-50" >
         <p>Many of you may be familiar with Astrology, and it is likely that you may even know your "Sun Sign" (Taurus, Gemini, Scorpio, etc), as well. Numerology can loosely be described as the sister study of Astrology, as it is quite similar in many ways.</p>
         
         <p> For example, just as you have your sun sign in Astrology, you have a 'Life Path Number' in Numerology. Also, just like you have a birth chart in Astrology (sun sign, moon sign, rising sign) which is calculated from your date of birth, similarly, you have a numerology chart which holds not only your life path number, but also your destiny number, personality number, challenge pinnacles, and more. </p>
@@ -44,7 +57,7 @@ return (
         </div>
         </div>
 
-)
+   )
 }
 
 export default AboutNumerology;
